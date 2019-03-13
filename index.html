@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project 1</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div class="section">
+		<!-- MODAL OVERLAY -->
+		<div class="modal">
+			<div class="x"><p>X</p></div>
+			<div>
+				<form action="" id="myform">
+					<div class="form">
+						<input type="text" id='profileQ' class="name" placeholder="Name" required>
+						<input type="text" id='profileQ' class="color" placeholder="Favourite color" required>
+						<input type="text" id='profileQ' class="ate" placeholder="The last thing you ate" required>
+						<input type="text" id='profileQ' class="weather" placeholder="The weather outside right now" required>
+						<input type="text" id='profileQ' class="transit" placeholder="Subways or streetcars?" required>
+						<input type="text" id='profileQ' class="pineapple" placeholder="Pineapple on your pizza?" required>
+						<input type="submit" class="submit">
+					</div>
+				</form>
+-->			</div>
+		</div>
+
+
+		<!-- CREATE PROFILE BUTTON-->
+		<div class="createProfile">
+			<!-- create account button - triggers the modal overlay -->
+			<div class="button createProfileButton">
+				<p>Create Profile</p>
+			</div>
+		</div>
+
+
+		<!-- PROFILE (APPEARS AFTER FORM IS FILLED OUT) -->
+		<div class="profile">
+			<div class="profileContainer">
+				<div class="profilePic">
+					<img src="http://placekitten.com/200/200" alt="Profile Picture">
+				</div>
+				<div class="profileAnswers">
+					<h2 class="name"></h2>
+				<ul>
+					<li class="color">Favourite color: </li>
+					<li class="ate">Last food you ate: </li>
+					<li class="weather">The weather outside: </li>
+					<li class="transit">Preferred transit option: </li>
+					<li class="pineapple">Pineapple on pizza?: </li>
+				</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
